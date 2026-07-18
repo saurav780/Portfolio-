@@ -1,0 +1,18 @@
+Saurav Raj
+Frontend Developer
+
+Summary
+Frontend developer with 3+ years of experience building responsive websites, conversion-focused eCommerce experiences, and polished UI systems. Skilled in Shopify, modern JavaScript, and performance optimization.
+
+Experience
+- Built high-performing storefronts and custom Shopify themes for fashion and wellness brands.
+- Delivered responsive landing pages, corporate websites, and UX-focused web experiences.
+- Focused on accessibility, Core Web Vitals, and business-driven interface improvements.
+
+Skills
+HTML5, CSS3, JavaScript, Bootstrap, Tailwind CSS, GSAP, Shopify Liquid, WordPress, PHP, SQL, MySQL, REST APIs, Figma
+
+Contact
+hello@sauravraj.dev
+linkedin.com/in/sauravraj
+github.com/saurav780
