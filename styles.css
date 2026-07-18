@@ -381,7 +381,6 @@ li,
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.6rem;
-  align-items: start;
 }
 
 .career-timeline::before {
@@ -393,45 +392,6 @@ li,
   height: 2px;
   background: rgba(94, 169, 255, 0.16);
   z-index: 0;
-}
-
-@media (max-width: 991px) {
-  .career-timeline {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .career-timeline::before {
-    display: none;
-  }
-}
-
-@media (max-width: 575px) {
-  .career-timeline {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
-  .timeline-step {
-    gap: 0.9rem;
-  }
-
-  .timeline-icon {
-    width: 64px;
-    height: 64px;
-  }
-
-  .career-timeline .timeline-card {
-    min-height: auto;
-    padding: 1.2rem;
-  }
-
-  .career-timeline .timeline-card h4 {
-    font-size: 1.05rem;
-  }
-
-  .career-timeline .timeline-card p {
-    font-size: 0.95rem;
-  }
 }
 
 .timeline-step {
