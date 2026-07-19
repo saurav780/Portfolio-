@@ -381,7 +381,6 @@ li,
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.6rem;
-  align-items: start;
 }
 
 .career-timeline::before {
@@ -393,16 +392,6 @@ li,
   height: 2px;
   background: rgba(94, 169, 255, 0.16);
   z-index: 0;
-}
-
-@media (max-width: 991px) {
-  .career-timeline {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .career-timeline::before {
-    display: none;
-  }
 }
 
 .timeline-step {
@@ -429,105 +418,6 @@ li,
 
 .timeline-icon i {
   font-size: 1.5rem;
-  font-family: "Bootstrap Icons" !important;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.bi {
-  font-family: "Bootstrap Icons" !important;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.career-timeline .timeline-card {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 1.4rem;
-  padding: 1.6rem;
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.15);
-  min-height: 240px;
-  color: #eef4ff;
-  text-align: left;
-}
-
-.career-timeline .timeline-card h4 {
-  margin: 0 0 0.75rem;
-  font-size: 1.2rem;
-  color: #ffffff;
-  line-height: 1.3;
-}
-
-.career-timeline .timeline-card p {
-  margin: 0;
-  color: var(--muted);
-  line-height: 1.75;
-}
-
-@media (max-width: 767px) {
-  .career-timeline {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    position: relative;
-  }
-
-  .career-timeline::before {
-    display: none;
-  }
-
-  .career-timeline::after {
-    content: '';
-    position: absolute;
-    left: 29px;
-    top: 0.5rem;
-    bottom: 0.5rem;
-    width: 2px;
-    background: linear-gradient(180deg, rgba(94, 169, 255, 0.45), rgba(94, 169, 255, 0.08));
-    z-index: 0;
-  }
-
-  .timeline-step {
-    position: relative;
-    width: 100%;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 0.85rem;
-    text-align: left;
-    z-index: 1;
-  }
-
-  .timeline-icon {
-    width: 58px;
-    height: 58px;
-    flex-shrink: 0;
-    box-shadow: 0 0 0 8px rgba(63, 117, 255, 0.05);
-  }
-
-  .career-timeline .timeline-card {
-    flex: 1;
-    min-height: auto;
-    padding: 1rem 1.05rem;
-    border-radius: 1rem;
-  }
-
-  .career-timeline .timeline-card h4 {
-    font-size: 1rem;
-    margin-bottom: 0.45rem;
-  }
-
-  .career-timeline .timeline-card p {
-    font-size: 0.95rem;
-    line-height: 1.6;
-  }
 }
 
 .career-timeline .timeline-card {
